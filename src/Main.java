@@ -4,6 +4,7 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
         System.out.println("HOla mundo de Franklin Bermeo");
@@ -24,7 +25,15 @@ public class Main {
 
         cadena3();
         cadena4();
+        invocarsubcadena();
+
     }
+    //SUBCADENA
+    public static void invocarsubcadena(){
+        String result = subcandenas.procesadorURL();
+        System.out.println("Nueva URL:"+ result);
+    }
+
     //CLASE 1
     public static void matriz_car(){
         System.out.println("Ingrese los caracteres");
